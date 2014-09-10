@@ -1,0 +1,426 @@
+<!-- @include _head -->
+<!-- @include _header -->
+
+        <section class="l-row" id="typography">
+          <header class="section-header">
+            <h1 class="beta section-title">Typography</h1>
+          </header>
+          
+          <section class="section section--main">
+            <p>The <a href="http://csswizardry.com/2012/02/pragmatic-practical-font-sizing-in-css/">double stranded hierarchy</a> allows me to use a certain style without depending on an element or it's place.</p>
+            
+            <h2 class="gamma">Paragraphs</h2>
+            
+            <p class="lead">As we got further and further away, it [the Earth] diminished in size. Finally it shrank to the size of a marble, the most beautiful you can imagine. That beautiful, warm, living object looked so fragile, so delicate, that if you touched it with a finger it would crumble and fall apart. Seeing this has to change a man.</p>
+            
+            <h3>Header 3</h3>
+
+            <p>Spaceflights cannot be stopped. This is not the work of any one man or even a group of men. It is a historical process which mankind is carrying out in accordance with the natural laws of human development.</p>
+            
+            <h4>Header 4</h4>
+            
+            <p>The Earth was small, light blue, and so touchingly alone, our home that must be defended like a holy relic. The Earth was absolutely round. I believe I never knew what the word round meant until I saw Earth from space.</p>
+            
+            <h5>Header 5</h5>
+            
+            <p>A Chinese tale tells of some men sent to harm a young girl who, upon seeing her beauty, become her protectors rather than her violators. That's how I felt seeing the Earth for the first time. I could not help but love and cherish her.</p>
+            
+            <h6>Header 6</h6>
+            
+            <p>What was most significant about the lunar voyage was not that man set foot on the Moon but that they set eye on the earth.</p>
+          </section>
+          
+          <section class="section section--main">
+            <h2 class="gamma">List</h2>
+            
+            <div class="example">
+              <ol>
+                <li>This is an ordered list.</li>
+                <li>This is the second item, which contains a sub list
+                  <ol>
+                    <li>This is the sub list, which is also ordered.</li>
+                    <li>It has two items.</li>
+                  </ol>
+                </li>
+                <li>This is the final list item.</li>
+              </ol>
+            </div>
+            
+            <div class="example">
+              <ul>
+                <li>Fruit
+                  <ul>
+                    <li>Apple</li>
+                    <li>Orange</li>
+                    <li>Banana</li>
+                  </ul>
+                </li>
+                <li>Vegetable</li>
+                <li>Fish</li>
+                <li>Nuts</li>
+              </ul>
+            </div>
+            
+            <div class="example">
+              <dl>
+                <dt>Space</dt>
+                <dd>Science has not yet mastered prophecy.</dd>
+                <dd>We predict too much for the next year and yet far too little for the next 10.</dd>
+              </dl>
+            </div>
+          </section>
+          
+          <section class="section section--main">
+            <h2 class="gamma">Blockquote</h2>
+            
+            <blockquote class="example">
+              <p>&ldquo;There is only one god and his name is Death. And there is only one thing we say to Death: "Not today".&rdquo;</p>
+            
+              <p class="cite">Game of Thrones</p>
+            </blockquote>
+          </section>
+          
+          <section class="section section--main">
+            <h2 class="gamma">Code</h2>
+          
+            <p>For block code samples use <code>code</code> wrapped in <code>pre</code>. Otherwise just <code>code</code> for inline samples.</p>
+          
+            <div class="example">
+<pre><code>html, button, input, select, textarea {
+  color: #333;
+  text-rendering: optimizeLegibility;
+}</code></pre>
+            </div>
+          </section>
+        </section>
+        
+        <section class="l-row" id="images">
+          <header class="section-header">
+            <h1 class="beta section-title">Images</h1>
+          </header>
+          
+          <section class="section section--main">
+            <h2 class="gamma">Figure</h2>
+            
+            <p>Wrap <code>img</code> elements in <code>figure</code>. This can be supported with <code>figcation</code>.</p>
+            
+            <figure>
+              <!-- @placeholder 900x400 -->
+              
+              <figcaption>
+                <p>This is a supporting caption.</p>
+              </figcaption>
+            </figure>
+          </section>
+        </section>
+        
+        <section class="l-row" id="navigation">
+          <header class="section-header">
+            <h1 class="beta section-title">Navigation</h1>
+          </header>
+          
+          <section class="section section--main">
+            <h2 class="gamma">Inline</h2>
+            
+            <ul class="nav nav--inline">
+              <li><a href="#none">Home</a></li>
+              <li><a href="#none">About</a></li>
+              <li><a href="#none">Contact</a></li>
+              <li><a href="#none">Gallery</a></li>
+            </ul>
+          </section>
+          
+          <section class="section section--main">
+            <h2 class="gamma">Stacked</h2>
+            
+            <ul class="nav nav--stacked">
+              <li><a href="#none">Home</a></li>
+              <li><a href="#none">About</a></li>
+              <li><a href="#none">Contact</a></li>
+              <li><a href="#none">Gallery</a></li>
+            </ul>
+          </section>
+        </section>
+        
+        <section class="l-row" id="table">
+          <header class="section-header">
+            <h2 class="section-title">Table</h2>
+          </header>
+          
+          <table class="table table-responsive">
+            <thead>
+              <tr>
+                <td data-label="Position">Position</td>
+                <td data-label="Team">Team</td>
+                <td data-label="Played">Played</td>
+                <td data-label="Points">Points</td>
+              </tr>
+            </thead>
+            
+            <tbody>
+              <tr>
+                <td data-label="Position">1</td>
+                <td data-label="Team">Man Utd</td>
+                <td data-label="Played">38</td>
+                <td data-label="Points">89</td>
+              </tr>
+              
+              <tr>
+                <td data-label="Position">2</td>
+                <td data-label="Team">Man City</td>
+                <td data-label="Played">38</td>
+                <td data-label="Points">78</td>
+              </tr>
+              
+              <tr>
+                <td data-label="Position">3</td>
+                <td data-label="Team">Chelsea</td>
+                <td data-label="Played">38</td>
+                <td data-label="Points">75</td>
+              </tr>
+              
+              <tr>
+                <td data-label="Position">4</td>
+                <td data-label="Team">Arsenal</td>
+                <td data-label="Played">38</td>
+                <td data-label="Points">73</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+        
+        <section class="l-row" id="form">
+          <header class="section-header">
+            <h1 class="beta section-title">Form</h1>
+          </header>
+          
+          <section class="section section--sub">
+            <h2 class="gamma">Input</h2>
+          
+            <input type="text" placeholder="Search">
+          </section>
+          
+          <section class="section section--sub">
+            <h2 class="gamma">Textarea</h2>
+          
+            <textarea placeholder="Message"></textarea>
+          </section>
+          
+          <section class="section section--sub">
+            <h2 class="gamma">Checkbox</h2>
+      
+            <ul class="l-inline-desktop">
+              <li>
+                <label class="input-checkbox" for="facebook">
+                  <span class="flag-pull-left">
+                    <input id="facebook" name="checkboxes" type="checkbox" />
+                    <label class="input-replacement input-replacement--checkbox" for="facebook"></label>
+                  </span>
+                
+                  <span class="flag-body">Facebook</span>
+                </label>
+              </li>
+            
+              <li>
+                <label class="input-checkbox" for="twitter">
+                  <span class="flag-pull-left">
+                    <input id="twitter" name="checkboxes" type="checkbox" />
+                    <label class="input-replacement input-replacement--checkbox" for="twitter"></label>
+                  </span>
+                
+                  <span class="flag-body">Twitter</span>
+                </label>
+              </li>
+            </ul>
+          </section>
+          
+          <section class="section section--sub">
+            <h2 class="gamma">Radio</h2>
+      
+            <ul class="l-inline-desktop">
+              <li>
+                <label class="input-radio" for="yes">
+                  <span class="flag-pull-left">
+                    <input id="yes" name="radios" type="radio">
+                    <label class="input-replacement input-replacement--radio" for="yes"></label>
+                  </span>
+                
+                  <span class="flag-body">Yes</span>
+                </label>
+              </li>
+              <li>
+                <label class="input-radio" for="no">
+                  <span class="flag-pull-left">
+                    <input id="no" name="radios" type="radio">
+                    <label class="input-replacement input-replacement--radio" for="no"></label>
+                  </span>
+                
+                  <span class="flag-body">No</span>
+                </label>
+              </li>
+            </ul>
+          </section>
+        </section>
+        
+        <section class="l-row" id="module">
+          <header class="section-header">
+            <h1 class="beta section-title">Module</h1>
+          </header>
+       
+          <section class="section section--main">
+            <h2 class="gamma">Button</h2>
+
+            <div class="example">
+              <div class="flag section section--sub">
+                <div class="table-cell table-cell--btn">
+                  <a class="btn btn--big" href="#none">Button</a>
+                </div>
+              
+                <div class="table-cell text-right">
+                  <p>Big Button</p>
+                </div>
+              </div>
+              
+              <div class="flag section section--sub">
+                <div class="table-cell table-cell--btn">
+                  <a class="btn" href="#none">Button</a>
+                </div>
+              
+                <div class="table-cell text-right">
+                  <p>Default Button</p>
+                </div>
+              </div>
+              
+              <div class="flag section section--sub">
+                <div class="table-cell table-cell--btn">
+                  <a class="btn btn--small" href="#none">Button</a>
+                </div>
+              
+                <div class="table-cell text-right">
+                  <p>Small Button</p>
+                </div>
+              </div>
+            </div>
+          
+            <p>You can easily customise these buttons by extending the <code>btn</code> module.</p>
+            
+            <div class="example">
+              <div class="flag section section--sub">
+                <div class="table-cell table-cell--btn">
+                  <a class="btn btn--alert" href="#none">Button</a>
+                </div>
+                
+                <div class="table-cell text-right">
+                  <p><code>btn--alert</code></p>
+                </div>
+              </div>
+              
+              <div class="flag section section--sub">
+                <div class="table-cell table-cell--btn">
+                  <a class="btn btn--success" href="#none">Button</a>
+                </div>
+                
+                <div class="table-cell text-right">
+                  <p><code>btn--success</code></p>
+                </div>
+              </div>
+              
+              <div class="flag section section--sub">
+                <div class="table-cell table-cell--btn">
+                  <a class="btn btn--twitter" href="#none"><i class="icon icon-twitter"></i> Twitter</a>
+                </div>
+                
+                <div class="table-cell text-right">
+                  <p><code>btn--twitter</code></p>
+                </div>
+              </div>
+              
+              <div class="flag section section--sub">
+                <div class="table-cell table-cell--btn">
+                  <a class="btn btn--facebook" href=""><i class="icon icon-facebook"></i> Facebook</a>
+                </div>
+                
+                <div class="table-cell text-right">
+                  <p><code>btn--facebook</code></p>
+                </div>
+              </div>
+            </div>
+          </section>
+          
+          <section class="section section--main">
+            <h2 class="gamma">Media</h2>
+          
+            <div class="media section section--sub">
+              <div class="pull-left pull-left-desktop">
+                <!-- @placeholder 256x190 -->
+              </div>
+              
+              <div class="media-body">
+                <p>Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor. Ut in nulla enim. Phasellus molestie magna non est bibendum non venenatis nisl tempor. Suspendisse dictum feugiat nisl ut dapibus. Mauris iaculis porttitor posuere. Praesent id metus massa, ut blandit odio. Proin quis tortor orci.</p>
+              </div>
+            </div>
+            
+            <div class="media section section--sub">
+              <div class="pull-right pull-right-desktop">
+                <!-- @placeholder 256x190 -->
+              </div>
+              
+              <div class="media-body">
+                <p>Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor. Ut in nulla enim. Phasellus molestie magna non est bibendum non venenatis nisl tempor. Suspendisse dictum feugiat nisl ut dapibus. Mauris iaculis porttitor posuere. Praesent id metus massa, ut blandit odio. Proin quis tortor orci.</p>
+              </div>
+            </div>
+          </section>
+          
+          <section class="section section--main">
+            <h2 class="gamma"><del>Flag</del></h2>
+          
+            <p>Basically the flag object is the same as the media object except the contents will be vertically aligned. Thanks to Harry Roberts about thinking of the flag object.</p>
+            
+            <div class="flag section section--sub">
+              <div class="table-cell table-cell--left">
+                <!-- @placeholder 128x128 -->
+              </div>
+              
+              <div class="table-cell">
+                <p>To go places and do things that have never been done before – that’s what living is all about.</p>
+              </div>
+            </div>
+            
+            <div class="flag section section--sub">
+              <div class="table-cell">
+                <p>To go places and do things that have never been done before – that’s what living is all about.</p>
+              </div>
+              
+              <div class="table-cell table-cell--right">
+                <!-- @placeholder 128x128 -->
+              </div>
+            </div>
+          </section>
+          
+          <section class="section section--main">
+            <h2 class="gamma">Modal</h2>
+            
+            <p>Barebones includes a custom modal you can use without any js dependencies. Hurray! Try out the <a class="modal-link" href="#overlay">modal</a>.</p>
+          </section>
+          
+          <section class="section section--main">
+            <h2 class="gamma">Sass Spinner</h2>
+            
+            <div class="spinner">
+              <div class="spinner-bar spinner-bar--1"></div>
+              <div class="spinner-bar spinner-bar--2"></div>
+              <div class="spinner-bar spinner-bar--3"></div>
+              <div class="spinner-bar spinner-bar--4"></div>
+              <div class="spinner-bar spinner-bar--5"></div>
+              <div class="spinner-bar spinner-bar--6"></div>
+              <div class="spinner-bar spinner-bar--7"></div>
+              <div class="spinner-bar spinner-bar--8"></div>
+              <div class="spinner-bar spinner-bar--9"></div>
+              <div class="spinner-bar spinner-bar--10"></div>
+              <div class="spinner-bar spinner-bar--11"></div>
+              <div class="spinner-bar spinner-bar--12"></div>
+            </div>
+          </section>
+        </section>
+    
+<!-- @include _footer -->
