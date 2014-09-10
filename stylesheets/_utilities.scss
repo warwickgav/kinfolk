@@ -1,0 +1,40 @@
+/* =============================================================================
+
+  $UTILITIES
+
+============================================================================= */
+
+/**
+  * Box Model
+  *
+  */
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  &:before,
+  &:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+}
+
+
+/**
+  * Clearfix
+  *
+  */
+
+.cfx {
+  &:before,
+  &:after {
+    display: table;
+    line-height: 0;
+    content: "";
+  }
+  &:after {
+    clear: both;
+  }
+}
