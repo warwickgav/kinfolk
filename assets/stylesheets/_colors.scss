@@ -4,12 +4,12 @@
 
 ============================================================================= */
 
-$base-bg:             #fff;
+$base-bg:                     rgb(253,253,253);
 
-$base-color:          #000;
+$base-color:                  rgb(85,81,83);
 
-$base-link:           green;
+$base-link:                   rgb(217,24,69);
 
-$base-link-hover:     red;
+$base-color-lighter-30:       lighten($base-color, 30%);
 
-$base-link-active:    blue;
+$bg-white:                     rgb(255,255,255);

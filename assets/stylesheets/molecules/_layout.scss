@@ -1,6 +1,15 @@
+/* =============================================================================
+
+  $LAYOUT
+
+============================================================================= */
+
+
 
 .container {
   @extend .gutter;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .row {
@@ -32,6 +41,7 @@
   width: $quarter;
 }
 
+.col-50,
 .col-2-4 {
   width: $half;
 }
@@ -50,6 +60,80 @@
 
 .col-3-5 {
   width: $three-fifths;
+}
+
+.col-4-5 {
+  width: $four-fifths;
+}
+
+/**
+  * Push
+  */
+
+.push-l-1-3 {
+  margin-left: $third;
+}
+
+.push-l-2-3 {
+  margin-left: $two-thirds;
+}
+
+.push-r-1-3 {
+  margin-right: $third;
+}
+
+.push-r-2-3 {
+  margin-right: $two-thirds;
+}
+
+.push-l-1-4 {
+  margin-left: $quarter;
+}
+
+.push-l-50,
+.push-l-2-4 {
+  margin-left: $half;
+}
+
+.push-l-3-4 {
+  margin-left: $three-quarters;
+}
+
+.push-r-1-4 {
+  margin-right: $quarter;
+}
+
+.push-r-50,
+.push-r-2-4 {
+  margin-right: $half;
+}
+
+.push-r-3-4 {
+  margin-right: $three-quarters;
+}
+
+.push-l-1-5 {
+  margin-left: $fifth;
+}
+
+.push-l-2-5 {
+  margin-left: $two-fifths;
+}
+
+.push-l-3-5 {
+  margin-left: $three-fifths;
+}
+
+.push-r-1-5 {
+  margin-right: $fifth;
+}
+
+.push-r-2-5 {
+  margin-right: $two-fifths;
+}
+
+.push-r-3-5 {
+  margin-right: $three-fifths;
 }
 
 @include respond-to(medium) {
@@ -90,10 +174,87 @@
     width: $three-fifths;
   }
 
+  .col-md-4-5 {
+    width: $four-fifths;
+  }
+
+  /**
+    * Push
+    */
+
+  .push-md-l-1-3 {
+    margin-left: $third;
+  }
+
+  .push-md-l-2-3 {
+    margin-left: $two-thirds;
+  }
+
+  .push-md-r-1-3 {
+    margin-right: $third;
+  }
+
+  .push-md-r-2-3 {
+    margin-right: $two-thirds;
+  }
+
+  .push-md-l-1-4 {
+    margin-left: $quarter;
+  }
+
+  .push-md-l-50,
+  .push-md-l-2-4 {
+    margin-left: $half;
+  }
+
+  .push-md-l-3-4 {
+    margin-left: $three-quarters;
+  }
+
+  .push-md-r-1-4 {
+    margin-right: $quarter;
+  }
+
+  .push-md-r-50,
+  .push-md-r-2-4 {
+    margin-right: $half;
+  }
+
+  .push-md-r-3-4 {
+    margin-right: $three-quarters;
+  }
+
+  .push-md-l-1-5 {
+    margin-left: $fifth;
+  }
+
+  .push-md-l-2-5 {
+    margin-left: $two-fifths;
+  }
+
+  .push-md-l-3-5 {
+    margin-left: $three-fifths;
+  }
+
+  .push-md-r-1-5 {
+    margin-right: $fifth;
+  }
+
+  .push-md-r-2-5 {
+    margin-right: $two-fifths;
+  }
+
+  .push-md-r-3-5 {
+    margin-right: $three-fifths;
+  }
+
 }
 
-
 @include respond-to(large) {
+
+  .container {
+    width: $large;
+  }
 
   .col-lg-100 {
     width: $full;
@@ -131,5 +292,86 @@
     width: $three-fifths;
   }
 
+  .col-lg-4-5 {
+    width: $four-fifths;
+  }
+
+  /**
+    * Push
+    */
+
+  .push-lg-l-1-3 {
+    margin-left: $third;
+  }
+
+  .push-lg-l-2-3 {
+    margin-left: $two-thirds;
+  }
+
+  .push-lg-r-1-3 {
+    margin-right: $third;
+  }
+
+  .push-lg-r-2-3 {
+    margin-right: $two-thirds;
+  }
+
+  .push-lg-l-1-4 {
+    margin-left: $quarter;
+  }
+
+  .push-lg-l-50,
+  .push-lg-l-2-4 {
+    margin-left: $half;
+  }
+
+  .push-lg-l-3-4 {
+    margin-left: $three-quarters;
+  }
+
+  .push-lg-r-1-4 {
+    margin-right: $quarter;
+  }
+
+  .push-lg-r-50,
+  .push-lg-r-2-4 {
+    margin-right: $half;
+  }
+
+  .push-lg-r-3-4 {
+    margin-right: $three-quarters;
+  }
+
+  .push-lg-l-1-5 {
+    margin-left: $fifth;
+  }
+
+  .push-lg-l-2-5 {
+    margin-left: $two-fifths;
+  }
+
+  .push-lg-l-3-5 {
+    margin-left: $three-fifths;
+  }
+
+  .push-lg-r-1-5 {
+    margin-right: $fifth;
+  }
+
+  .push-lg-r-2-5 {
+    margin-right: $two-fifths;
+  }
+
+  .push-lg-r-3-5 {
+    margin-right: $three-fifths;
+  }
+
 }
 
+@include respond-to(wide) {
+
+  .container {
+//    width: $wide;
+  }
+
+}

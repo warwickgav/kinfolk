@@ -1,18 +1,9 @@
 /* =============================================================================
 
-  $HELPERS
-
-  Single line modifiers
+  $GLOBALS
 
 ============================================================================= */
 
-/**
-  * Position: Fixed
-  */
-
-.pos-fixed {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: $full;
+html {
+  background-color: $base-bg;
 }
