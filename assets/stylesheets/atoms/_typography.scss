@@ -22,22 +22,15 @@ p + p {
   *
   */
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3 {
+  font-weight: 500;
+}
+
+h1, .alpha {
 
 }
 
-h1,
-.alpha {
-
-}
-
-h2,
-.beta {
+h2, .beta {
 
 }
 
@@ -59,7 +52,6 @@ h6 {
 
 /**
   * Sizes
-  *
   */
 
 .quiet {
@@ -70,7 +62,18 @@ h6 {
 
 }
 
-
 .louder {
 
+}
+
+/**
+  * Context
+  */
+
+.title {
+
+}
+
+.sub-title {
+  color: $base-color-lighter-30;
 }

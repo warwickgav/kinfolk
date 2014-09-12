@@ -4,7 +4,7 @@
 
 ============================================================================= */
 
-@import "normalize", "helpers", "mixins", "variables", "utilities";
+@import "normalize", "colors", "mixins", "variables", "utilities", "zIndex", "helpers";
 
 /* =============================================================================
 
@@ -12,7 +12,7 @@
 
 ============================================================================= */
 
-@import "atoms/typography", "atoms/images", "atoms/tables", "atoms/forms", "atoms/navigation", "atoms/visibility";
+@import "atoms/globals", "atoms/typography", "atoms/images", "atoms/tables", "atoms/forms", "atoms/navigation", "atoms/visibility";
 
 /* =============================================================================
 

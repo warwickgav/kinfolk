@@ -1,3 +1,23 @@
-.masthead {
-  @extend .gutter;
+/* =============================================================================
+
+  $HEADER
+
+============================================================================= */
+
+.page-head {
+  background: $bg-white;
+  @extend .pos-fixed;
+  @include respond-to(medium) {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+}
+
+.page-head .sub-title {
+  display: block;
+}
+
+.page-head .sub-title,
+.page-head .nav-bar{
+  margin-top: 18px;
 }
