@@ -4,12 +4,7 @@
 
 ============================================================================= */
 
-@import
-"_normalize",
-"_helpers",
-"_mixins",
-"_variables",
-"_utilities";
+@import "normalize", "helpers", "mixins", "variables", "utilities";
 
 /* =============================================================================
 
@@ -17,13 +12,7 @@
 
 ============================================================================= */
 
-@import
-"atoms/_typography",
-"atoms/_images",
-"atoms/_tables",
-"atoms/_forms",
-"atoms/_navigation",
-"atoms/_visibility";
+@import "atoms/typography", "atoms/images", "atoms/tables", "atoms/forms", "atoms/navigation", "atoms/visibility";
 
 /* =============================================================================
 
@@ -31,12 +20,7 @@
 
 ============================================================================= */
 
-@import
-"molecules/_layout",
-"molecules/_navigation-main",
-"molecules/_navigation-breadcrumbs",
-"molecules/_hero",
-"molecules/_logo";
+@import "molecules/layout", "molecules/navigation-main", "molecules/navigation-breadcrumbs", "molecules/hero", "molecules/logo";
 
 /* =============================================================================
 
@@ -44,11 +28,7 @@
 
 ============================================================================= */
 
-@import
-"organisms/_header",
-"organisms/_footer",
-"organisms/_main",
-"organisms/_article";
+@import "organisms/header", "organisms/footer", "organisms/main", "organisms/article";
 
 /* =============================================================================
 
@@ -56,5 +36,4 @@
 
 ============================================================================= */
 
-@import
-"templates/homepage.scss";
+@import "templates/homepage";

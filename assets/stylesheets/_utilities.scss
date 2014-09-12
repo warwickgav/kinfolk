@@ -38,3 +38,13 @@
     clear: both;
   }
 }
+
+/**
+  * Gutter
+  *
+  */
+
+.gutter {
+  padding-left: $gutter;
+  padding-right: $gutter;
+}
